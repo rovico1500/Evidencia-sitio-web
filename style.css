@@ -1,0 +1,201 @@
+@import url('reset.css');
+@font-face {
+    font-family: 'IBMPlexSans';
+    src: url("./fonts/IBMPlexSans-Bold.ttf") format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'IBMPlexSans-Regular', sans-serif;
+}
+/*Sección de encabezado de la página*/
+.titulo1 {
+    width: 50%;
+    float: left;
+}
+h2 {
+    font-family: 'IBMPlexSans-Bold', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-left: 4em;
+}
+.subtitulo {
+    margin-top: 0.6em;
+    margin-left: 8em; 
+}
+.menu1 {
+    width: 50%;
+    float: left; 
+    margin-top: 5em;
+}
+/* Menú de la página, lugar desde el cual podemos acceder a las diferentes secciones de la página*/
+.inicio1, .noticias1, .nosotros1, .contacto1  {
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+.noticias1, .nosotros1, .contacto1 {
+    margin-left: 1em;
+}
+/* Menú de redes sociales*/
+.facebook1, .instagram1, .x1 {
+    width: 20px;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.facebook1 {
+    margin-left: 47.5em;
+}
+/*Banner principal*/
+.imgprincipal {
+    background-image: url(images/principalsuesca.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 20em;
+    margin-top: 2em;
+    transition: background-image 0.3s ease;
+}
+/* Texto includo en el banner de la página */
+.textimg {
+    margin-top: -6em;
+    margin-bottom: 8em;
+    margin-left: 30%;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 40%;
+    float: left;
+}
+/*Sección informativa*/
+.actividades1 {
+    margin-top: 4em;
+    float: left;
+}
+.acampar2, .escalar2, .glamping2 {
+    float: left;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+.acampar1 {
+    float: left;
+    margin-left: 10em;
+    width: 15em; 
+}
+.escalar1, .glamping1 {
+    float: left;
+    margin-left: 1em;
+    width: 15em;
+}
+h3, p {
+    position: absolute;
+}
+h3 {
+    margin-top: 14em;
+    float: left;
+    font-size:1.2rem ;
+    font-weight:600 ;
+}
+.acampar3 {
+    margin-left: 8.5em;
+}
+.escalar3, .glamping3 {
+    margin-left: 1em;
+}
+p {
+    margin-top: 20em;
+    float: left;
+}
+.acampar4 {
+    margin-left: 10.2em;
+}
+.escalar4, .glamping4 {
+    margin-left: 1em;
+}
+.noticias {
+    float: left;
+    margin-top: 6em;
+}
+.informativo {
+    float: left;
+    max-width: 100%;
+    width: 100%;
+    margin-left: 10em;
+} 
+.informativo2 {
+    margin-right: 6em;
+}
+.nosotros {
+    float: left;
+    margin-top: 18em;
+}
+.mapa1 {
+    float: left;
+    margin-top: 48em;
+    margin-left: 4em;
+}
+.bkg {
+    width: 100%;
+    height: 20em;
+    float: left;
+    background-color:#515A5A;
+}
+.footer1 {
+    width: 100%;
+    float: left;
+    margin-bottom: 5em;
+}
+.contactanos {
+    float: left;
+    margin-top: 6em;
+    margin-left: 8em;
+    color: #fff;
+}
+.aventura {
+    float: left;
+    margin-top: 9em;
+    margin-left: 12em;
+    color: #fff;
+}
+.mailto1 {
+    text-decoration: none;
+    float: left;
+    margin-top: 12em;
+    color: #fff;
+}
+.mailto2 {
+    width: 40px;
+    float: left;
+    margin-top: -0.5em;
+    margin-left: 10em;
+}
+.whatsapp1 {
+    text-decoration: none;
+    float: left;
+    margin-top: 12em;
+    color: #fff;
+}
+.whatsapp2 {
+    width: 40px;
+    float: left;
+    margin-top: -0.5em;
+    margin-left: 4em;
+}
+.btnVolverArriba {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-image: url("images/arriba.png");
+    background-size: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  } 
